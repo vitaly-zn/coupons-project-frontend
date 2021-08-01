@@ -1,0 +1,29 @@
+.MainMenu > nav {
+	display: flex;
+    flex-direction: column;
+}
+
+.MainMenu > nav > a {
+    margin: 10px auto;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.MainMenu h4 {
+    padding: 20px;
+    color: blue;
+    border-bottom: 1px solid black;
+}
+
+.MainMenu .active {
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px black;
+}
+
+.MainMenu a:hover {
+    color: blue;
+    text-decoration: underline
+}

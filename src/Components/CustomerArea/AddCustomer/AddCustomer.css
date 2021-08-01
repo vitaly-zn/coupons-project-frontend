@@ -1,0 +1,44 @@
+.AddCustomer {
+    width: 350px;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 15px;
+}
+
+.AddCustomer > form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.AddCustomer h4 {
+    margin: 20px auto;
+}
+
+.AddCustomer input {
+    margin: 10px auto;
+    padding: 10px;
+    font-size: larger;
+}
+
+.AddCustomer button {
+    width: 120px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.AddCustomer button:hover {
+    color: black;
+}
+
+.AddCustomer a {
+    text-decoration: none;
+}
+
+.AddCustomer div > button, a {
+    margin: auto 10px;
+}

@@ -1,0 +1,23 @@
+.CouponDetails {
+	display: flex;
+    flex-direction: column;
+}
+
+.CouponDetails button {
+    width: 150px;
+    margin: 20px auto;
+}
+
+.CouponDetails button:hover {
+    color: black;
+}
+
+.CouponDetails img {
+    width: 300px;
+    border: 1px solid red;
+    margin: 10px auto;
+}
+
+.CouponDetails i {
+    color: darkblue;
+}

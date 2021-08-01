@@ -1,0 +1,44 @@
+.CompaniesList a:hover {
+    color: red;
+}
+
+.CompaniesList .TableBodyRow:hover {
+    color: blue;
+}
+
+.CompaniesList > table {
+    margin: auto;
+    width: 95%;
+}
+
+.CompaniesList tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+.CompaniesList > table, .CompaniesList th, .CompaniesList td {
+    border: 1px solid black;
+}
+
+.CompaniesList caption {
+    margin: 20px auto;
+}
+
+.CompaniesList th, .CompaniesList td {
+    margin: 5px;
+    padding: 5px;
+}
+
+.CompaniesList > a {
+    text-decoration: none;
+    margin: 10px;
+    margin: 20px;
+}
+
+.CompaniesList button {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.CompaniesList button:hover {
+    color: black;
+}

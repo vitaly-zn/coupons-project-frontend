@@ -1,0 +1,44 @@
+.CustomersList a:hover {
+    color: red;
+}
+
+.CustomersList .TableBodyRow:hover {
+    color: blue;
+}
+
+.CustomersList > table {
+    margin: auto;
+    width: 95%;
+}
+
+.CustomersList tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+.CustomersList > table, .CustomersList th, .CustomersList td {
+    border: 1px solid black;
+}
+
+.CustomersList caption {
+    margin: 20px auto;
+}
+
+.CustomersList th, .CustomersList td {
+    margin: 5px;
+    padding: 5px;
+}
+
+.CustomersList > a {
+    text-decoration: none;
+    margin: 10px;
+    margin: 20px;
+}
+
+.CustomersList button {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.CustomersList button:hover {
+    color: black;
+}

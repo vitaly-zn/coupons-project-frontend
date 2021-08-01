@@ -1,0 +1,44 @@
+.Login {
+    width: 350px;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 15px;
+}
+
+.Login > form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.Login h3 {
+    margin: 20px auto;
+}
+
+.Login input {
+    margin: 10px auto;
+    padding: 10px;
+    font-size: larger;
+}
+
+.Login button {
+    width: 120px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.Login button:hover {
+    color: black;
+}
+
+.Login a {
+    text-decoration: none;
+}
+
+.Login div > button, a {
+    margin: auto 10px;
+}

@@ -1,0 +1,26 @@
+.CouponCard {
+	border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 8px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.CouponCard:hover {
+    box-shadow: grey 15px 15px 20px;
+}
+
+.CouponCard a {
+    margin: auto;
+}
+
+.CouponCard a:hover {
+    color: red;
+}
+
+.CouponCard img {
+    width: 300px;
+    vertical-align: middle;
+    margin: 0 5px;
+    border: 1px solid grey;
+}

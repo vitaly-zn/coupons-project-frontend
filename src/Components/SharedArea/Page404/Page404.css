@@ -1,0 +1,31 @@
+.Page404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Page404 > h1, p, .Page404 button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Page404 > h1 {
+    padding: 10px;
+}
+
+.Page404 > p {
+    font-size: 22px;
+}
+
+.Page404 > img {
+    margin: auto;
+    width: 600px;
+}
+
+.Page404 button {
+    width: 150px;
+    margin: 20px auto;
+}
+
+.Page404 button:hover {
+    color: black;
+}

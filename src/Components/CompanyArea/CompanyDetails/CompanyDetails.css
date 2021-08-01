@@ -1,0 +1,25 @@
+.CompanyDetails {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.CompanyDetails button {
+    width: 150px;
+    margin: 20px auto;
+}
+
+.CompanyDetails button:hover {
+    color: black;
+}
+
+.CompanyDetails > div {
+    display: inline-flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.CompanyDetails i {
+    color: darkblue;
+}

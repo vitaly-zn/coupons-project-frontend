@@ -1,0 +1,45 @@
+.EditCustomer {
+    min-width: 350px;
+    max-width: 450px;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 15px;
+}
+
+.EditCustomer > form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.EditCustomer h4 {
+    margin: 20px auto;
+}
+
+.EditCustomer input {
+    margin: 10px auto;
+    padding: 10px;
+    font-size: larger;
+}
+
+.EditCustomer button {
+    width: 120px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.EditCustomer button:hover {
+    color: black;
+}
+
+.EditCustomer a {
+    text-decoration: none;
+}
+
+.EditCustomer div > button, a {
+    margin: auto 10px;
+}

@@ -1,0 +1,44 @@
+.EditCompany {
+    width: 350px;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 15px;
+}
+
+.EditCompany > form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.EditCompany h4 {
+    margin: 20px auto;
+}
+
+.EditCompany input {
+    margin: 10px auto;
+    padding: 10px;
+    font-size: larger;
+}
+
+.EditCompany button {
+    width: 120px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.EditCompany button:hover {
+    color: black;
+}
+
+.EditCompany a {
+    text-decoration: none;
+}
+
+.EditCompany div > button, a {
+    margin: auto 10px;
+}

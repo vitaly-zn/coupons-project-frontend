@@ -1,0 +1,29 @@
+.CustomerMenu > nav {
+	display: flex;
+    flex-direction: column;
+}
+
+.CustomerMenu > nav > a {
+    margin: 10px auto;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.CustomerMenu h4 {
+    padding: 20px;
+    color: blue;
+    border-bottom: 1px solid black;
+}
+
+.CustomerMenu .active {
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px black;
+}
+
+.CustomerMenu a:hover {
+    color: blue;
+    text-decoration: underline
+}

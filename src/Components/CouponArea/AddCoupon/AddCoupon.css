@@ -1,0 +1,45 @@
+.AddCoupon {
+    width: 400px;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 15px;
+}
+
+.AddCoupon > form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.AddCoupon h4 {
+    margin: 10px auto;
+}
+
+.AddCoupon input {
+    margin: 10px auto;
+    font-size: larger;
+}
+
+.AddCoupon textarea {
+    margin: 20px 5px 0px 5px;
+    font-size: larger;
+}
+
+.AddCoupon button {
+    width: 120px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.AddCoupon button:hover {
+    color: black;
+}
+
+.AddCoupon div > button {
+    margin: auto 10px;
+}
+

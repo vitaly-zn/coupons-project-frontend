@@ -1,0 +1,19 @@
+.AuthMenu {
+	position: fixed;
+    right: 10px;
+    top: 20px;
+}
+
+.AuthMenu > span, a {
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    margin: 0 10px 0 5px;
+}
+
+.AuthMenu > a:hover {
+    color: blue;
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px blue;
+}

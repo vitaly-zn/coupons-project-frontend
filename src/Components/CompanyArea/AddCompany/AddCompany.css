@@ -1,0 +1,44 @@
+.AddCompany {
+    width: 350px;
+    height: fit-content;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: black 10px 10px 15px;
+}
+
+.AddCompany > form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.AddCompany h4 {
+    margin: 20px auto;
+}
+
+.AddCompany input {
+    margin: 10px auto;
+    padding: 10px;
+    font-size: larger;
+}
+
+.AddCompany button {
+    width: 120px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.AddCompany button:hover {
+    color: black;
+}
+
+.AddCompany a {
+    text-decoration: none;
+}
+
+.AddCompany div > button, a {
+    margin: auto 10px;
+}

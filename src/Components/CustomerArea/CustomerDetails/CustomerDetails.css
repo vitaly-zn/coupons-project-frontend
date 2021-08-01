@@ -1,0 +1,25 @@
+.CustomerDetails {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+
+.CustomerDetails button {
+    width: 150px;
+    margin: 20px auto;
+}
+
+.CustomerDetails button:hover {
+    color: black;
+}
+
+.CustomerDetails > div {
+    display: inline-flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.CustomerDetails i {
+    color: darkblue;
+}
