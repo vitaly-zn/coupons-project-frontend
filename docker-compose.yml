@@ -1,0 +1,43 @@
+version: '3'
+
+services:
+  # service 1: defining mysql database
+  db:
+    image: mysql
+    container_name: coupon-system-db
+    environment:
+      MYSQL_DATABASE: coupon_system
+      MYSQL_ROOT_PASSWORD: 1234
+    ports:
+      - "3307:3306"
+    restart: always
+
+  # service 2: defining spring boot application - backend
+  backend:
+    image: vitalyzl/coupons-backend
+    container_name: coupons-backend-app
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    restart: always
+    depends_on:
+      - db
+    environment:
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 1234
+
+  # service 3: defining react application - frontend
+  frontend-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: vitalyzl/coupons-frontend
+    container_name: coupons-frontend-app
+    environment:
+      - NODE_ENV=production
+    ports:
+      - 3000:3000
+    stdin_open: true
+    command: npm start
